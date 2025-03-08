@@ -1,4 +1,11 @@
 /* your code here */
 .product{
-	
+	background-color:green;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+.photo-main{
+	background:palegreen;
 }
