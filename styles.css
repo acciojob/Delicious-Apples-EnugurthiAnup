@@ -42,7 +42,8 @@
 	position:relative;
 	left:-23%
 }
-.photo-album ul img{
+.photo-album ul li img{
 	border:1px solid black;
 	height:40px
 }
+
