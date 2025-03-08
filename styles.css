@@ -4,7 +4,7 @@
 	margin:0;
 }
 .product{
-	background-color:green;
+	background-color:palegreen;
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
@@ -12,12 +12,13 @@
 	height:100vh;
 }
 .photo-main{
-	background:palegreen;
+	background:limegreen;
 }
 .controls{
 	display:flex;
 	justify-content:space-between;
-	padding:10px
+	padding:10px;
+	color:white
 }
 .photo-album ul{
 	display:flex;
@@ -29,10 +30,14 @@
 	
 	
 }
-.photo-container{
+.product__photo{
 	background:white;
 	width:30vw;
 	height:300px;
+	position:absolute;
+	left:10%;
+	z-index:+1
+	
 	
 	
 }
@@ -45,5 +50,16 @@
 .photo-album ul li img{
 	border:1px solid black;
 	height:40px
+}
+.product__info{
+	background:white;
+	width:30rem;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	position:relative;
+	left:5%;
+	
+	
 }
 
